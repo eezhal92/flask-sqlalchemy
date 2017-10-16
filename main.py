@@ -6,8 +6,8 @@ Main
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from mappings import init as init_mappings
-from repository.book import BookRepository
+from book_lib.infrastructure.mappings import init as init_mappings
+from book_lib.infrastructure.repository.book import BookRepository
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['MYSQL_URI']

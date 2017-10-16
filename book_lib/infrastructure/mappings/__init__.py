@@ -3,7 +3,7 @@
 Mapping
 """
 
-from entities.book import Book
+from book_lib.domain.entities.book import Book
 
 
 def init(db):

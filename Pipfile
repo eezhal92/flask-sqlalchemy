@@ -8,6 +8,7 @@ name = "pypi"
 flask = "*"
 "flask-sqlalchemy" = "*"
 pymysql = "*"
+"flask-restful" = "*"
 
 
 [dev-packages]

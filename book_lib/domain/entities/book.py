@@ -17,3 +17,9 @@ class Book:
         """
         self.title = title
         self.author = author
+
+    def serialize(self):
+        return {
+            'title': self.title,
+            'author': self.author
+        }

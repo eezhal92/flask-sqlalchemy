@@ -10,7 +10,7 @@ class Borrowing:
 
     def borrow(self, book_title):
         """."""
-        available_copies = self.find_available_copies(book_title)
+        available_copies = self._find_available_copies(book_title)
 
         if (len(available_copies) == 0):
             raise Exception(
@@ -22,6 +22,6 @@ class Borrowing:
 
         return to_be_borrowed_book
 
-    def find_available_copies(self, book_title):
+    def _find_available_copies(self, book_title):
         """."""
         return self.book_repo.find_available_copies(book_title)

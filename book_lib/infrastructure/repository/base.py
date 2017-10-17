@@ -1,7 +1,4 @@
-""".
-
-Repo
-"""
+"""Repo."""
 
 
 class BaseRepository(object):

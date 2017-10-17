@@ -1,6 +1,6 @@
 # flask-sqlalchemy
 
-Learn Flask + SQLAlchemy
+Learn Flask + SQLAlchemy. My attempt to implement DDD + Event Sourcing + CQRS
 
 ## Setup
 

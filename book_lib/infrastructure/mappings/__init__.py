@@ -15,5 +15,6 @@ def init(db):
         'books',
         db.Column('id', db.Integer, primary_key=True),
         db.Column('title', db.Unicode),
-        db.Column('author', db.Unicode)
+        db.Column('author', db.Unicode),
+        db.Column('borrowed', db.Boolean)
     ))

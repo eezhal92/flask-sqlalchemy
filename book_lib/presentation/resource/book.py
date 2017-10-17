@@ -7,7 +7,9 @@ from book_lib.infrastructure.repository.book import BookRepository
 
 class Book(Resource):
     """."""
+
     def __init__(self, **kwargs):
+        """."""
         self.db = kwargs['db']
         self.book_repo = BookRepository(self.db)
 
